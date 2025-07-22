@@ -1,5 +1,5 @@
-import {useEffect, useMemo, useRef, useState} from 'react';
-import toDoItems from '../Data/data';
+import {useEffect, useMemo, useState} from 'react';
+
 import '../Styles/HomePageBody.css';
 
 const HomePgBody=()=>{
