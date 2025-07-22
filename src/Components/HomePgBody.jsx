@@ -62,7 +62,7 @@ const HomePgBody=()=>{
 
   const updateButtonClicked=(e,i)=>{
    e.preventDefault();
-   if(isUpdateClicked===true && i==indexToUpdate) return;
+   if(isUpdateClicked===true && i===indexToUpdate) return;
    setIndexToUpdate(i);
    setInput(todoArr[i]);
 
